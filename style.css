@@ -1,0 +1,138 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*body {
+    text-align: center;
+}*/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* if you want the light version */
+  color: #8888dc;
+}
+
+h2 {
+  font-family: roboto;
+  font-weight: 400;
+  color: #29a7a7;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #929292;
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #6fe1e69e;
+  }
+
+  .img-circle:hover {
+    width: 250px;
+    transition: all 0.7s ease;
+    border: none;
+  }
+
+.btn-blue {
+  text-decoration: none;
+  font-family: "Open Sens", sans-serif;
+  font-weight: 400;
+  background-color:rgb(210, 210, 210);
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.btn-blue:hover {
+  font-size: 20px;
+  transition: all 0.3s ease;
+  background-color: #29a7a7;
+
+}
+
+li, i {
+  display: inline-block;
+  font-size: 50px;
+  color: rgb(210, 210, 210);
+  margin: 5px;
+}
+
+i:hover {
+  color: black;
+  font-size: 55px;
+  transition: all 0.3s ease;
+}
+
+.socials {
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #80808005;
+  margin: 35px auto;
+  padding: 45px 45px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 10px #00000029;
+}
+
+@media (max-width: 1560px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+a {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E %3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
